@@ -1,0 +1,158 @@
+@charset "utf-8";
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400,900");
+body, input, select, textarea
+{
+	font-family: 'Lato', sans-serif;
+	font-size: 15pt;
+	font-weight: 300;
+}
+
+h1, h2, h3, h4, h5, h6
+{
+	font-weight: 300;
+}
+
+h2
+{
+	font-size: 1.5em;
+}
+
+h3
+{
+	font-size: 1em;
+}
+
+header.special .icon:before
+{
+	font-size: 3.5em;
+}
+
+ul.featured-icons li .icon
+{
+	font-size: 5.5em;
+}
+
+blockquote
+{
+	font-style: italic;
+}
+
+strong, b
+{
+    font-weight: 400;
+}
+
+sub
+{
+	font-size: 0.8em;
+}
+
+sup
+{
+	font-size: 0.8em;
+}
+
+table.default th
+{
+	font-weight: 400;
+}
+
+input[type="button"],
+input[type="submit"],
+input[type="reset"],
+button,
+.button
+{
+	font-size: 0.8em;
+	font-weight: 900;
+}
+
+input[type="button"].small,
+input[type="submit"].small,
+input[type="reset"].small,
+button.small,
+.button.small
+{
+	font-size: 0.7em;
+}
+
+.icon:before
+{
+	font-style: normal;
+	font-variant: normal;
+	font-family: 'Font Awesome 5 Free';
+	font-weight: 400;
+}
+
+.icon.solid:before
+{
+	font-weight: 900;
+}
+
+.icon.brands:before
+{
+	font-family: 'Font Awesome 5 Brands';
+}
+
+.icon.circle
+{
+	font-size: 1.25em;
+}
+
+.icon.featured:before
+{
+	font-size: 5em;
+}
+
+#banner .inner header h2
+{
+	font-size: 2.5em;
+	font-weight: 900;
+}
+
+#banner .inner p a
+{
+	font-weight: 400;
+}
+
+#footer .copyright
+{
+	font-size: 0.8em;
+}
+
+#header
+{
+	font-size: 0.8em;
+}
+
+#header h1
+{
+	font-weight: 900;
+}
+
+#header h1 span
+{
+	font-weight: 300;
+}
+
+#header nav ul li input[type="button"],
+#header nav ul li input[type="submit"],
+#header nav ul li input[type="reset"],
+#header nav ul li button,
+#header nav ul li .button
+{
+	font-size: 1em;
+}
+
+#header nav ul li.submenu > a:before
+{
+	font-style: normal;
+	font-variant: normal;
+	font-family: 'Font Awesome 5 Free';
+	font-weight: 900;
+}
+
+#header nav ul li.current > a
+{
+	font-weight: 900;
+}

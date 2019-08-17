@@ -1,0 +1,25 @@
+@charset "utf-8";
+.image:before
+{
+	background: url("../image/overlay.png");
+}
+
+.wrapper.style2
+{
+	background-image: url("../image/light-bl.svg"), url("../image/light-br.svg");
+}
+
+#banner
+{
+	background-image: url("../image/banner.jpg");
+}
+
+#contact
+{
+	background-image: url("../image/light-tl.svg"), url("../image/light-tr.svg"), url("../image/overlay.png"), url("../image/banner.jpg");
+}
+
+#main
+{
+	background-image: url("../image/dark-tl.svg"), url("../image/dark-tr.svg"), url("../image/dark-bl.svg"), url("../image/dark-br.svg");
+}
